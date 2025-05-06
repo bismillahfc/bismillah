@@ -10,7 +10,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(["page_size" => 1]));
 curl_setopt($ch, CURLOPT_HTTPHEADER, [
-    'Authorization: Bearer ntn_tua_api_key_notion',
+    'Authorization: Bearer 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',
     'Notion-Version: 2022-06-28',
     'Content-Type: application/json'
 ]);
